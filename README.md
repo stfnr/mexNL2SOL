@@ -12,3 +12,9 @@ Syntax is similar to lsqnonlin. [X,RESNORM,RESIDUAL,EXITFLAG,ITERATIONS,FEVALS,J
 Note however that the output struct of lsqnonlin is replaced with iterations and lambda with the number of function evaluations.
 
 If you have tested it on another MATLAB/OS combination, or find a bug in the code, please drop me a line, then I will update the code/wiki.
+
+## Precompiled mex files
+
+### MacOS
+
+Requires /usr/local/opt/gcc/lib/gcc/10/libgfortran.5.dylib which can be installed using e.g. home brew. 
